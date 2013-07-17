@@ -3,10 +3,12 @@
     max-width: 250px;
     margin: 0 auto;
 }
+
 #wdi5-logo-container{
     margin: 0 auto;
     width: 50%;
 }
+
 
 
 body{
@@ -24,4 +26,22 @@ body{
     text-shadow:0.5px 1px 1.5px grey;
 } 
 
+
+.growable{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+.growable:hover{
+    transform: scale(1.01);
+    -ms-transform: scale(1.01); 
+    -webkit-transform: scale(1.01); 
+} 
+
+
+#focus-team-member{
+    
+}
 

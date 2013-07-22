@@ -15,6 +15,14 @@ body{
     background-image: url("../pageContent/images/brillant.png");
 }
 
+.skills {
+    background-color: lightgray;
+    color: black;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px #888888;
+    margin-bottom: 10px;
+}
+
 
 .shadowable{
     -webkit-transition: text-shadow 1s;
@@ -51,6 +59,18 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    margin-bottom: 40px;
+}
 
+#skills {
+    text-align: center;
+}
+
+ul
+{
+    list-style: none;
 }
 

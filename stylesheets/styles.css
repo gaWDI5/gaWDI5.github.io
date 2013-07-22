@@ -1,12 +1,12 @@
 #wdi5-logo{
-    width: 100%;
-    max-width: 250px;
+    width: 250px;
     margin: 0 auto;
+
 }
 
 #wdi5-logo-container{
     margin: 0 auto;
-    width: 50%;
+    text-align: center;
 }
 
 
@@ -23,7 +23,7 @@ body{
     transition: text-shadow 1s;
 }
 .shadowable:hover{
-    text-shadow:0.5px 1px 1.5px grey;
+    text-shadow:0.5px 1px 1.5px gray;
 } 
 
 
@@ -43,5 +43,14 @@ body{
 
 #focus-team-member{
     
+}
+
+#image img {
+    height: 300px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 

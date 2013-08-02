@@ -59,13 +59,12 @@ $(function(){
     $('#focus-team-member').css('opacity', '0.5')
 
 
-    
 
 
-    $('#image').on('mouseenter', function(){
+    $('#image-box').on('mouseenter', function(){
         $('#group-photo').attr('src', './pageContent/images/Group2.jpg')
     })
-    $('#image').on('mouseleave', function(){
+    $('#image-box').on('mouseleave', function(){
         $('#group-photo').attr('src', './pageContent/images/Group1.jpg')
     })
 

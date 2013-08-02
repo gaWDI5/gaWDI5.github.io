@@ -24,6 +24,8 @@ body{
 }
 
 
+
+
 .shadowable{
     -webkit-transition: text-shadow 1s;
     -moz-transition: text-shadow 1s;
@@ -53,7 +55,13 @@ body{
     
 }
 
-#image img {
+
+#image-box{
+    width: 100%;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.group-photo{
     width: 100%;
     display: block;
     margin-left: auto;
@@ -63,7 +71,6 @@ body{
     -moz-filter: grayscale(100%);
     margin-bottom: 40px;
 }
-
 
 #group-photo-1{
     z-index: 9999;

@@ -34,6 +34,10 @@ function hover_focus_on_member(e){
 // Document Ready Yo!
 $(function(){
 
+
+    $('#group-photo').hide()
+    $('#group-photo').fadeIn(125)
+
     for(var mem=0; mem < team_data.length; mem++) {
         // Collect Member
         current_member = team_data[mem]
@@ -53,4 +57,22 @@ $(function(){
 
 
     $('#focus-team-member').css('opacity', '0.5')
+
+
+    
+
+
+    $('#image').on('mouseenter', function(){
+        $('#group-photo').attr('src', './pageContent/images/Group2.png')
+    })
+    $('#image').on('mouseleave', function(){
+        $('#group-photo').attr('src', './pageContent/images/Group1.png')
+    })
+
+    // setTimeout(function(){
+    //     node = $('<img class = "group-photo-hidden" id="group-photo-2" src="./pageContent/images/Group2.png" />')
+    //     node.hide()
+    //     $('#image').append(node)
+    // }, 1000)
+
 })

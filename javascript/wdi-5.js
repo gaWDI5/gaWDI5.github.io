@@ -63,10 +63,10 @@ $(function(){
 
 
     $('#image').on('mouseenter', function(){
-        $('#group-photo').attr('src', './pageContent/images/Group2.jpeg')
+        $('#group-photo').attr('src', './pageContent/images/Group2.jpg')
     })
     $('#image').on('mouseleave', function(){
-        $('#group-photo').attr('src', './pageContent/images/Group1.jpeg')
+        $('#group-photo').attr('src', './pageContent/images/Group1.jpg')
     })
 
     // setTimeout(function(){

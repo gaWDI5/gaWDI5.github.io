@@ -90,3 +90,20 @@ ul{
     margin-bottom: 30px;
 }
 
+
+
+#focus-team-member{
+    border-bottom: 3px solid gray;
+}
+
+#team-members-bin{
+    border-top: 3px solid gray;
+}
+
+#focus-member-image{
+    border-bottom: 3px solid gray;  
+}
+
+.team-member-image-small{
+    width: 7em;
+}

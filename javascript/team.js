@@ -9,18 +9,29 @@ function URLS(personal_url, github_url, twitter_url){
     return urls_literal
 }
 
+function Images(big_image, small_image, profile_image){
+    var urls_literal = {
+        big_image:big_image || "./pageContent/images/wdi5_shadow.png",
+        small_image:small_image || "./pageContent/images/wdi5_shadow.png",
+        profile_image:profile_image || "./pageContent/images/wdi5_shadow.png"
+    }
+    return urls_literal
+}
 
-function Team_Member(name, email, image, bio, member_urls){
+
+function Team_Member(name, email, bio, member_images, member_urls){
     var base_URLS = new URLS();
+    var base_images =new Images();
     member_urls = member_urls || base_URLS; 
+    member_images = member_images || base_images; 
 
     var team_member_literal =  {
             name:name || "Firstname Lastname",
             firstname: name.split(" ")[0],
             lastname: name.split(" ")[1],
             email:email || "wdi5ga2013@gmail.com",
-            image:image || "./pageContent/images/wdi5_shadow.png",
             bio:bio || "A WDI5 Member",
+            images:member_images,
             urls:member_urls
         }
 
@@ -39,7 +50,12 @@ var team_data = [
         ),
 
     new Team_Member(
-        "Lee Hampton"
+        "Lee Hampton",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/LeeHampton_big.png", 
+                    "./pageContent/images/team/LeeHampton_small.png"),
+        new URLS()
         ),
 
     new Team_Member(

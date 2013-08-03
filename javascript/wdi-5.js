@@ -6,10 +6,11 @@ function focus_on_member(mem_inx){
     current_member = team_data[mem_inx]
     if (current_member){
         $('#focus-team-member').empty()
+
         member_node = $('<div data-id= ' + mem_inx + ' id="' + current_member.lastname + '" class="focus-member sixteen columns" ></div>')
         member_node.append($('<div>').html('<h2 class="five columns">'+current_member.name+'<h2>'))
         member_node.append($('<div class="row"></div>'))
-        member_node.append($('<img width="100%" class="four columns"></img>').attr('src', current_member.image))
+        member_node.append($('<img id="focus-member-image" width="100%" class="seven columns"></img>').attr('src', current_member.images.big_image))
         
         info_contact_section = $('<section class="shadowable four columns"></section>')
         info_contact_section.html(current_member.bio + '<br>')
@@ -43,10 +44,10 @@ $(function(){
         current_member = team_data[mem]
         // Create Div
         member_div = $('<div data-id= ' + mem + ' id="' + current_member.lastname + '" class="team-member three columns" ></div>')
+        // Add Image
+        member_div.append($('<img class="team-member-image-small" ></img>').attr('src', current_member.images.small_image))
         // Add Name
         member_div.append($('<div>').text(current_member.name))
-        // Add Image
-        member_div.append($('<img width="30%"></img>').attr('src', current_member.image))
         // Append to DOM
         $('#team-members-bin').append(member_div)
     }   

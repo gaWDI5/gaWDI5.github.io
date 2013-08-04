@@ -53,8 +53,7 @@ var team_data = [
         "Lee Hampton",
         "wdi5ga2013@gmail.com",
         "A WDI_5 Student",
-        new Images("./pageContent/images/team/LeeHampton_big.png", 
-                    "./pageContent/images/team/LeeHampton_small.png"),
+        new Images("./pageContent/images/team/LeeHampton_big.png"),
         new URLS()
         ),
 
@@ -87,7 +86,11 @@ var team_data = [
         ),
 
     new Team_Member(
-        "Tanay Jalan"
+        "Tanay Jalan",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/TannayJalan_big.png"),
+        new URLS()
         ),
 
     new Team_Member(
@@ -99,11 +102,19 @@ var team_data = [
         ),
 
     new Team_Member(
-        "Andrew Madden"
+        "Andrew Madden",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/AndrewMadden_big.png"),
+        new URLS()
         ),
 
     new Team_Member(
-        "Remy Bartolotta"
+        "Remy Bartolotta",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/RemyBartolotta_big.png"),
+        new URLS()
         ),
 
     new Team_Member(

@@ -98,7 +98,11 @@ var team_data = [
         ),
 
     new Team_Member(
-        "Isabel Cortes"
+        "Isabel Cortes",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/BelCortes_big.png"),
+        new URLS()
         ),
 
     new Team_Member(

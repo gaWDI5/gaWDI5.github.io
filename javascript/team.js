@@ -58,7 +58,11 @@ var team_data = [
         ),
 
     new Team_Member(
-        "Michael Frohberg"
+        "Michael Frohberg",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/MichaelFrohberg_big.png"),
+        new URLS()
         ),
 
     new Team_Member(

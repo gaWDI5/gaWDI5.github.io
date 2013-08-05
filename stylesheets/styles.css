@@ -91,10 +91,10 @@ ul{
 }
 
 
-
 #focus-team-member{
-    min-height: 10em;
+    min-height: 27em; 
     border-top: 3px solid gray;
+    position: relative;
 }
 
 #team-members-bin{
@@ -103,6 +103,7 @@ ul{
 
 #focus-member-image{
     border-bottom: 3px solid gray;  
+    position: absolute; bottom: 0px;
 }
 
 .team-member-image-small{

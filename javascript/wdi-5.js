@@ -83,9 +83,6 @@ $(function(){
     focus_on_member(Math.floor(Math.random()*team_data.length))
     // $('#focus-team-member').css('opacity', '0.5')
 
-    $('#focus-team-member').on('mouseenter', load_focus_on_member_pictures)
-    $('#team-members-bin').on('mouseenter', load_focus_on_member_pictures)
-
     $('#focus-team-member').on('click', toggle_focus_image_size)
 
     $('#image-box').on('mouseenter', function(){
@@ -95,5 +92,8 @@ $(function(){
         $('#group-photo').attr('src', './pageContent/images/Group1.jpg')
     })
 
+    $('#focus-team-member').on('mouseenter', load_focus_on_member_pictures)
+    $('#team-members-bin').on('mouseenter', load_focus_on_member_pictures)
+    setTimeout(load_focus_on_member_pictures, 1000)
 
 })

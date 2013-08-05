@@ -43,18 +43,35 @@ var team_data = [
 
     new Team_Member(
         "Alex Davidow",
-        "wdi5ga2013@gmail.com",
+        "alex.davidow@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/AlexDavidow_big.png"),
-        new URLS()        
+        new URLS("http://wdi5.com",
+                 "http://github.com/alexshotime",
+                 "http://twitter.com/alexshotime" 
+                 )        
         ),
 
     new Team_Member(
         "David Aaron",
-        "wdi5ga2013@gmail.com",
+        "davidmatthewaaron@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/DavidAaron_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/dmaaron",
+                 "http://twitter.com/davidsonpoint" 
+                 )     
+        ),
+
+    new Team_Member(
+        "Jamie Yu-Ramos",
+        "pccjamie@gmail.com",
+        "A WDI_5 Student",
+        new Images(),
+        new URLS("http://wdi5.com",
+                 "http://github.com/pccjamie",
+                 "http://twitter.com/podandcob" 
+                 )     
         ),
 
     new Team_Member(
@@ -62,95 +79,121 @@ var team_data = [
         "wdi5ga2013@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/LeeHampton_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/LeeHampton",
+                 "http://twitter.com/leejhampton" 
+                 )     
         ),
 
     new Team_Member(
         "Michael Frohberg",
-        "wdi5ga2013@gmail.com",
+        "michaelfrohberg@live.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/MichaelFrohberg_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/mixedmedia",
+                 "http://twitter.com/MixMediaDev" 
+                 )     
         ),
 
-    new Team_Member(
-        "Jamie Yu-Ramos",
-        "wdi5ga2013@gmail.com",
-        "A WDI_5 Student",
-        new Images(),
-        new URLS()
-        ),
 
     new Team_Member(
         "Mike Reinhart",
-        "wdi5ga2013@gmail.com",
+        "mreinhart88@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/MichaelReinhart_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/mikereinhart",
+                 "http://twitter.com/reinhartmike" 
+                 )     
         ),
 
     new Team_Member(
         "George Rodriguez",
-        "wdi5ga2013@gmail.com",
+        "1@6e0r9e.com",
         "A WDI_5 Student",
         new Images(),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/6e0r9e",
+                 "http://twitter.com/ale6e0r9exshotime" 
+                 )     
         ),
 
     new Team_Member(
         "Tanay Jalan",
-        "wdi5ga2013@gmail.com",
+        "tanayjalan@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/TannayJalan_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/jalant",
+                 "http://twitter.com/TanayJalan" 
+                 )     
         ),
 
     new Team_Member(
         "Chris Eichler",
-        "wdi5ga2013@gmail.com",
+        "chriseichler@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/ChrisEichler_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/chriseichler",
+                 "http://twitter.com/Chris_R_Eichler" 
+                 )     
         ),
 
     new Team_Member(
         "Isabel Cortes",
-        "wdi5ga2013@gmail.com",
+        "belcortes@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/BelCortes_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/belcortes",
+                 "http://twitter.com/bebelcortes" 
+                 )     
         ),
 
     new Team_Member(
         "Andrew Madden",
-        "wdi5ga2013@gmail.com",
+        "amadden80@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/AndrewMadden_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/amadden80",
+                 "http://twitter.com/ajm_dev" 
+                 )     
         ),
 
     new Team_Member(
         "Remy Bartolotta",
-        "wdi5ga2013@gmail.com",
+        "remy.bartolotta@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/RemyBartolotta_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/bartolotta",
+                 "http://twitter.com/WhoIsRemy" 
+                 )     
         ),
 
     new Team_Member(
         "Mike Schechter",
-        "wdi5ga2013@gmail.com",
+        "schechtermike@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/MichaelSchechter_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/schechter",
+                 "http://twitter.com/mschechter77" 
+                 )     
         ),
 
     new Team_Member(
         "Bernard Doherty",
-        "wdi5ga2013@gmail.com",
+        "bernard.doherty@icloud.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/BernardDoherty_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/BernardDoherty",
+                 "http://twitter.com/thebern" 
+                 )     
         ),
 
     new Team_Member(
@@ -158,15 +201,21 @@ var team_data = [
         "wdi5ga2013@gmail.com",
         "A WDI_5 Student",
         new Images(),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/rkuhel",
+                 "http://twitter.com/RyanKuhel" 
+                 )     
         ),
 
     new Team_Member(
         "Frank Mendez",
-        "wdi5ga2013@gmail.com",
+        "fmendez133@gmail.com",
         "A WDI_5 Student",
         new Images("./pageContent/images/team/FrankMendez_big.png"),
-        new URLS()
+        new URLS("http://wdi5.com",
+                 "http://github.com/FJMendez",
+                 "http://twitter.com/Abrasive_Fellow" 
+                 )     
         )
 ];   
 

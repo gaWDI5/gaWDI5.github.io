@@ -16,12 +16,12 @@ function focus_on_member(mem_inx){
         var member_node_right = $('<div id="focus-member-right" class="five columns"></div>')
         var info_contact_section = $('<section class="shadowable"></section>')
         info_contact_section.html(current_member.bio + '<br>')
-        info_contact_section.html(info_contact_section.html() + current_member.email)
+        info_contact_section.html(info_contact_section.html() + "<a target='blank' href='mailto:" + current_member.email+ "'>" + current_member.email+ "</a>")
         member_node_right.append(info_contact_section)
 
         member_node_right.append($('<div class="row"></div>'))
         var url_section = $('<section class="shadowable four columns"></section>')
-        url_section.text(current_member.urls.personal_url)
+        url_section.append($('<a href='+current_member.urls.personal_url+'>'+current_member.urls.personal_url+'</a>'))
         member_node_right.append(url_section)
 
         member_node.append(member_node_left)
@@ -40,7 +40,6 @@ function toggle_focus_image_size(){
         width: toggle_size,
     }, 1500 );
 }
-
 
 
 function click_focus_on_member(e){

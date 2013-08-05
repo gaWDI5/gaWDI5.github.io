@@ -42,11 +42,19 @@ function Team_Member(name, email, bio, member_images, member_urls){
 var team_data = [
 
     new Team_Member(
-        "Alex Davidow"        
+        "Alex Davidow",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/AlexDavidow_big.png"),
+        new URLS()        
         ),
 
     new Team_Member(
-        "David Aaron"
+        "David Aaron",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/DavidAaron_big.png"),
+        new URLS()
         ),
 
     new Team_Member(
@@ -66,27 +74,27 @@ var team_data = [
         ),
 
     new Team_Member(
-        "David Aaron"
+        "Jamie Yu-Ramos",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images(),
+        new URLS()
         ),
 
     new Team_Member(
-        "Jamie Yu-Ramos"
+        "Mike Reinhart",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/MichaelReinhart_big.png"),
+        new URLS()
         ),
 
     new Team_Member(
-        "Lee Hampton"
-        ),
-
-    new Team_Member(
-        "Michael Frohberg"
-        ),
-
-    new Team_Member(
-        "Mike Reinhart"
-        ),
-
-    new Team_Member(
-        "George Rodriguez"
+        "George Rodriguez",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images(),
+        new URLS()
         ),
 
     new Team_Member(
@@ -98,7 +106,11 @@ var team_data = [
         ),
 
     new Team_Member(
-        "Chris Eichler"
+        "Chris Eichler",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/ChrisEichler_big.png"),
+        new URLS()
         ),
 
     new Team_Member(
@@ -126,138 +138,36 @@ var team_data = [
         ),
 
     new Team_Member(
-        "Mike Schechter"
+        "Mike Schechter",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/MichaelSchechter_big.png"),
+        new URLS()
         ),
 
     new Team_Member(
-        "Bernard Doherty"
+        "Bernard Doherty",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/BernardDoherty_big.png"),
+        new URLS()
         ),
 
     new Team_Member(
-        "Ryan Kuhel"
+        "Ryan Kuhel",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images(),
+        new URLS()
         ),
 
     new Team_Member(
-        "Frank Mendez"
+        "Frank Mendez",
+        "wdi5ga2013@gmail.com",
+        "A WDI_5 Student",
+        new Images("./pageContent/images/team/FrankMendez_big.png"),
+        new URLS()
         )
-
-]   
-
+];   
 
 
-
-// var team_data = {
-    
-//     Davidow:{            
-//             name:"Alex Davidow", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Aaron:{            
-//             name:"David Aaron", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Yu_Ramos:{            
-//             name:"Jamie Yu-Ramos", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Hampton:{            
-//             name:"Lee Hampton", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Frohberg:{            
-//             name:"Michael Frohberg", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Reinhart:{            
-//             name:"Mike Reinhart", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Rodriguez:{            
-//             name:"George Rodriguez", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Jalan:{            
-//             name:"Tanay Jalan", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Eichler:{            
-//             name:"Chris Eichler", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Cortes:{            
-//             name:"Isabel Cortes", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Madden:{            
-//             name:"Andrew Madden", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Bartolotta:{            
-//             name:"Remy Bartolotta", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Schechter:{            
-//             name:"Mike Schechter", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Doherty:{            
-//             name:"Bernard Doherty", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Kuhel:{            
-//             name:"Ryan Kuhel", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             },
-
-//     Mendez:{            
-//             name:"Frank Mendez", 
-//             url: "http://wdi5.com", 
-//             bio:"I went to WDI at GA.",
-//             image:"http://placekitten.com/"+(Math.floor(Math.random()*200)+100)+"/"+(Math.floor(Math.random()*200)+100)
-//             }
-
-// }

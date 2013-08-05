@@ -93,7 +93,8 @@ ul{
 
 
 #focus-team-member{
-    border-bottom: 3px solid gray;
+    min-height: 10em;
+    border-top: 3px solid gray;
 }
 
 #team-members-bin{

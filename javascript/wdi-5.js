@@ -26,18 +26,31 @@ function focus_on_member(mem_inx){
     }
 }
 
-function hover_focus_on_member(e){
+function click_focus_on_member(e){
     var mem_inx = $("#"+ e.target.parentElement.id).data()['id']
     focus_on_member(mem_inx)
+}
+
+
+function load_focus_on_member_pictures(){
+
+    $('#focus-team-member').unbind()
+
+    console.log('Loading all team member pictures...')
+    for(var mem=0; mem < team_data.length; mem++) {
+        $('#hiden-focus-team-member').empty()
+        var current_member_prep = team_data[mem]
+        $('#hiden-focus-team-member').append($('<img width="0px" height="0px"></img>').attr('src', current_member_prep.images.big_image))
+    }
+    console.log(':)')
+
+
 }
 
 
 // Document Ready Yo!
 $(function(){
 
-
-    $('#group-photo').hide()
-    $('#group-photo').fadeIn(125)
 
     for(var mem=0; mem < team_data.length; mem++) {
         // Collect Member
@@ -52,14 +65,14 @@ $(function(){
         $('#team-members-bin').append(member_div)
     }   
 
-    $('#team-members-bin').on('click', '.team-member', hover_focus_on_member)
+    $('#team-members-bin').on('click', '.team-member', click_focus_on_member)
+
+
 
     focus_on_member(Math.floor(Math.random()*team_data.length))
+    // $('#focus-team-member').css('opacity', '0.5')
 
-
-    $('#focus-team-member').css('opacity', '0.5')
-
-
+    $('#focus-team-member').on('mouseenter', load_focus_on_member_pictures)
 
 
     $('#image-box').on('mouseenter', function(){
@@ -69,10 +82,5 @@ $(function(){
         $('#group-photo').attr('src', './pageContent/images/Group1.jpg')
     })
 
-    // setTimeout(function(){
-    //     node = $('<img class = "group-photo-hidden" id="group-photo-2" src="./pageContent/images/Group2.png" />')
-    //     node.hide()
-    //     $('#image').append(node)
-    // }, 1000)
 
 })

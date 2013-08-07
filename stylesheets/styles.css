@@ -45,16 +45,34 @@ body{
 
 }
 .growable:hover{
-    transform: scale(1.01);
-    -ms-transform: scale(1.01); 
+    -ms-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
     -webkit-transform: scale(1.01); 
+    transform: scale(1.01); 
 } 
 
 
+
 #focus-team-member{
-    
 }
 
+
+
+/*#member_node_left{
+    min-width: 3em;
+}
+*/
+
+
+.small-work-image{
+    border: 1px solid lightgray;
+    width: 25%;
+}
+.small-work-title{
+    background-color: white;
+    opacity:0.5;
+}
 
 #image-box{
     width: 100%;
@@ -92,7 +110,7 @@ ul{
 
 
 #focus-team-member{
-    min-height: 27em; 
+    min-height: 29em; 
     border-top: 3px solid gray;
     position: relative;
 }
@@ -112,4 +130,5 @@ ul{
 
 a{
     text-decoration: none;
+    display:inline-block;
 }

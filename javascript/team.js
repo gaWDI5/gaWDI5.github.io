@@ -172,7 +172,7 @@ var team_data = [
                  "http://twitter.com/Chris_R_Eichler" 
                  )   
         ),
-
+ 
     new Team_Member(
         "Isabel Cortes",
         "belcortes@gmail.com",

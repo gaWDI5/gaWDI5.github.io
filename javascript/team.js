@@ -65,7 +65,7 @@ var team_data = [
                  ),
         [
             new Work_Item('Once-Upon-a-Cupcake', "http://once-upon-a-cupcake.herokuapp.com/", "./pageContent/images/work_screenshots/OnceUponACupcake.jpg"),
-            new Work_Item('Cupcake Game', "http://cupcake-game.herokuapp.com/", "./pageContent/images/work_screenshots/CupcakeGame.jpg"),
+            new Work_Item('Cupcake Game', "http://cupcake-game.herokuapp.com/", "./pageContent/images/work_screenshots/TheCupcakeGame.jpg"),
             new Work_Item('World Cup 2014', "http://worldcup-app.herokuapp.com/", "./pageContent/images/work_screenshots/WorldCup2014.jpg")
         ]      
         ),
@@ -195,7 +195,7 @@ var team_data = [
             new Work_Item('Calcacademy', "http://calcacademy.herokuapp.com/", "./pageContent/images/work_screenshots/Calcacademy.jpg"),
             new Work_Item('WDI5.com', "http://WDI5.com", "./pageContent/images/work_screenshots/WDI5.jpg"),
             new Work_Item('World Cup 2014', "http://worldcup-app.herokuapp.com/", "./pageContent/images/work_screenshots/WorldCup2014.jpg"),
-            new Work_Item('Cupcake Game', "http://fathomless-fjord-8804.herokuapp.com/users/sign_in", "./pageContent/images/work_screenshots/CupcakeGame.jpg")
+            new Work_Item('Cupcake Game', "http://fathomless-fjord-8804.herokuapp.com/users/sign_in", "./pageContent/images/work_screenshots/TheCupcakeGame.jpg")
         ]  
         ),
 

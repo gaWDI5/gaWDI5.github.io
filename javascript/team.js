@@ -18,11 +18,13 @@ function Work_Item(title, url, screenshot){
     return work_item_literal;
 }
 
-function Images(big_image, small_image, profile_image){
+function Images(image, big_image, small_image, profile_image){
     var urls_literal = {
-        big_image:big_image || "./pageContent/images/wdi5_shadow.png",
+        image:image || "./pageContent/images/wdi5_shadow.png",
+        big_image:big_image|| "./pageContent/images/wdi5_shadow.png",
         small_image:small_image || "./pageContent/images/wdi5_shadow.png",
         profile_image:profile_image || "./pageContent/images/wdi5_shadow.png"
+
     };
     return urls_literal;
 }
@@ -58,7 +60,8 @@ var team_data = [
         "Alex Davidow",
         "alex.davidow@gmail.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/AlexDavidow_big.png"),
+        new Images("./pageContent/images/team/AlexDavidow.png", 
+                   "./pageContent/images/team/AlexDavidow_big.png"),
         new URLS("http://alexdavidow.github.io",
                  "http://github.com/alexshotime",
                  "http://twitter.com/alexshotime"
@@ -74,7 +77,8 @@ var team_data = [
         "David Aaron",
         "davidmatthewaaron@gmail.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/DavidAaron_big.png"),
+        new Images("./pageContent/images/team/DavidAaron.png", 
+                   "./pageContent/images/team/DavidAaron_big.png"),
         new URLS("http://dmaaron.github.io/",
                  "http://github.com/dmaaron",
                  "http://twitter.com/davidsonpoint" 
@@ -103,7 +107,8 @@ var team_data = [
         "Lee Hampton",
         "wdi5ga2013@gmail.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/LeeHampton_big.png"),
+        new Images("./pageContent/images/team/LeeHampton.png", 
+                   "./pageContent/images/team/AndrewMadden_big.png"),
         new URLS("http://leehampton.github.io/",
                  "http://github.com/LeeHampton",
                  "http://twitter.com/leejhampton"
@@ -117,7 +122,8 @@ var team_data = [
         "Michael Frohberg",
         "michaelfrohberg@live.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/MichaelFrohberg_big.png"),
+        new Images("./pageContent/images/team/MichaelFrohberg.png", 
+                   "./pageContent/images/team/MichaelFrohberg_big.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/mixedmedia",
                  "http://twitter.com/MixMediaDev" 
@@ -129,7 +135,8 @@ var team_data = [
         "Mike Reinhart",
         "mreinhart88@gmail.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/MichaelReinhart_big.png"),
+        new Images("./pageContent/images/team/MichaelReinhart.png", 
+                   "./pageContent/images/team/MichaelReinhart_big.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/mikereinhart",
                  "http://twitter.com/reinhartmike" 
@@ -157,7 +164,8 @@ var team_data = [
         "Tanay Jalan",
         "tanayjalan@gmail.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/TannayJalan_big.png"),
+        new Images("./pageContent/images/team/TannayJalan.png", 
+                   "./pageContent/images/team/TannayJalan_big.png"),
         new URLS("http://jalant.github.io/",
                  "http://github.com/jalant",
                  "http://twitter.com/TanayJalan"
@@ -172,7 +180,8 @@ var team_data = [
         "Chris Eichler",
         "chriseichler@gmail.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/ChrisEichler_big.png"),
+        new Images("./pageContent/images/team/ChrisEichler.png", 
+                   "./pageContent/images/team/ChrisEichler_big.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/chriseichler",
                  "http://twitter.com/Chris_R_Eichler"
@@ -186,7 +195,8 @@ var team_data = [
         "Isabel Cortes",
         "belcortes@gmail.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/BelCortes_big.png"),
+        new Images("./pageContent/images/team/BelCortes.png", 
+                   "./pageContent/images/team/BelCortes_big.png"),
         new URLS("http://belcortes.github.io/",
                  "http://github.com/belcortes",
                  "http://twitter.com/bebelcortes" 
@@ -203,7 +213,8 @@ var team_data = [
         "Andrew Madden",
         "amadden80@gmail.com",
         "My business card say I'm an Audio Research, Programmer and Nice Guy.  I need a new business card...",
-        new Images("./pageContent/images/team/AndrewMadden_big.png"),
+        new Images("./pageContent/images/team/AndrewMadden.png", 
+                   "./pageContent/images/team/AndrewMadden_big.png"),
         new URLS("http://AndrewMadden.com",
                  "http://github.com/amadden80",
                  "http://twitter.com/ajm_dev"
@@ -219,7 +230,8 @@ var team_data = [
         "Remy Bartolotta",
         "remy.bartolotta@gmail.com",
         "Full stack Chukanbushi (Middle Samurai) looking for a Shogun (Legendary Samurai and Force Commander) in order to mature my skills.",
-        new Images("./pageContent/images/team/RemyBartolotta_big.png"),
+        new Images("./pageContent/images/team/RemyBartolotta.png", 
+                   "./pageContent/images/team/RemyBartolotta_big.png"),
         new URLS("http://www.WhoIsRemy.com",
                  "http://github.com/bartolotta",
                  "http://twitter.com/WhoIsRemy" 
@@ -234,7 +246,8 @@ var team_data = [
         "Mike Schechter",
         "schechtermike@gmail.com",
         "Speed Quality Price:  Pick any two.",
-        new Images("./pageContent/images/team/MichaelSchechter_big.png"),
+        new Images("./pageContent/images/team/MichaelSchechter.png", 
+                   "./pageContent/images/team/MichaelSchechter_big.png"),
         new URLS("http://schechter.github.io/",
                  "http://github.com/schechter",
                  "http://twitter.com/mschechter77" 
@@ -250,7 +263,8 @@ var team_data = [
         "Bernard Doherty",
         "bernard.doherty@icloud.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/BernardDoherty_big.png"),
+        new Images("./pageContent/images/team/BernardDoherty.png", 
+                   "./pageContent/images/team/BernardDoherty_big.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/BernardDoherty",
                  "http://twitter.com/thebern"
@@ -275,7 +289,8 @@ var team_data = [
         "Frank Mendez",
         "fmendez133@gmail.com",
         "Do I look like I have time for this?",
-        new Images("./pageContent/images/team/FrankMendez_big.png"),
+        new Images("./pageContent/images/team/FrankMendez.png", 
+                   "./pageContent/images/team/FrankMendez_big.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/FJMendez",
                  "http://twitter.com/Abrasive_Fellow" 

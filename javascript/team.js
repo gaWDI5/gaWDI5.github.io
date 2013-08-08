@@ -168,9 +168,9 @@ var team_data = [
         "Tanay Jalan",
         "tanayjalan@gmail.com",
         "I am a member of WDI-5.",
-        new Images("./pageContent/images/team/TannayJalan.png", 
-                   "./pageContent/images/team/TannayJalan_big.png",
-                   "./pageContent/images/team/TannayJalan_profile.png"),
+        new Images("./pageContent/images/team/TanayJalan.png", 
+                   "./pageContent/images/team/TanayJalan_big.png",
+                   "./pageContent/images/team/TanayJalan_profile.png"),
         new URLS("http://jalant.github.io/",
                  "http://github.com/jalant",
                  "http://twitter.com/TanayJalan"

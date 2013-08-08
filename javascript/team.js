@@ -65,7 +65,7 @@ var team_data = [
                  ),
         [
             new Work_Item('Once-Upon-a-Cupcake', "http://once-upon-a-cupcake.herokuapp.com/", "./pageContent/images/work_screenshots/OnceUponACupcake.jpg"),
-            new Work_Item('Cupcake Game', "http://cupcake-game.herokuapp.com/", "./pageContent/images/work_screenshots/CupCakeGame.jpg"),
+            new Work_Item('Cupcake Game', "http://cupcake-game.herokuapp.com/", "./pageContent/images/work_screenshots/CupcakeGame.jpg"),
             new Work_Item('World Cup 2014', "http://worldcup-app.herokuapp.com/", "./pageContent/images/work_screenshots/WorldCup2014.jpg")
         ]      
         ),
@@ -88,12 +88,15 @@ var team_data = [
     new Team_Member(
         "Jamie Yu-Ramos",
         "pccjamie@gmail.com",
-        "I am a member of WDI-5.",
+        "Needs a vacation.",
         new Images(),
         new URLS("http://wdi5.com",
                  "http://github.com/pccjamie",
-                 "http://twitter.com/podandcob" 
-                 )     
+                 "http://twitter.com/podandcob"
+                 ),
+        [
+            new Work_Item('Stoopendous', "http://stoopendous.herokuapp.com/", "./pageContent/images/work_screenshots/Stoopendous.jpg")
+        ]
         ),
 
     new Team_Member(
@@ -103,7 +106,7 @@ var team_data = [
         new Images("./pageContent/images/team/LeeHampton_big.png"),
         new URLS("http://leehampton.github.io/",
                  "http://github.com/LeeHampton",
-                 "http://twitter.com/leejhampton" 
+                 "http://twitter.com/leejhampton"
                  ),
         [
             new Work_Item('Ace Office', "http://lhtj.herokuapp.com/", "./pageContent/images/work_screenshots/AceOffice.jpg")
@@ -130,7 +133,10 @@ var team_data = [
         new URLS("http://wdi5.com",
                  "http://github.com/mikereinhart",
                  "http://twitter.com/reinhartmike" 
-                 )     
+                 ),
+        [
+            new Work_Item('Lost Tribes', "http://brewtribe.herokuapp.com/", "./pageContent/images/work_screenshots/LostTribes.jpg")
+        ] 
         ),
 
     new Team_Member(
@@ -154,12 +160,12 @@ var team_data = [
         new Images("./pageContent/images/team/TannayJalan_big.png"),
         new URLS("http://jalant.github.io/",
                  "http://github.com/jalant",
-                 "http://twitter.com/TanayJalan" 
+                 "http://twitter.com/TanayJalan"
                  ),
         [
             new Work_Item('Stoopendous', "http://stoopendous.herokuapp.com/", "./pageContent/images/work_screenshots/Stoopendous.jpg"),
             new Work_Item('Ace Office', "http://lhtj.herokuapp.com/", "./pageContent/images/work_screenshots/AceOffice.jpg"),
-        ]    
+        ]
         ),
 
     new Team_Member(
@@ -169,8 +175,11 @@ var team_data = [
         new Images("./pageContent/images/team/ChrisEichler_big.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/chriseichler",
-                 "http://twitter.com/Chris_R_Eichler" 
-                 )   
+                 "http://twitter.com/Chris_R_Eichler"
+                 ),
+        [
+            new Work_Item('Lost Tribes', "http://brewtribe.herokuapp.com/", "./pageContent/images/work_screenshots/LostTribes.jpg")
+        ]
         ),
  
     new Team_Member(
@@ -183,10 +192,10 @@ var team_data = [
                  "http://twitter.com/bebelcortes" 
                  ),
         [
-            new Work_Item('Calcacademy', "http://calcacademy.herokuapp.com/"),
+            new Work_Item('Calcacademy', "http://calcacademy.herokuapp.com/", "./pageContent/images/work_screenshots/Calcacademy.jpg"),
             new Work_Item('WDI5.com', "http://WDI5.com", "./pageContent/images/work_screenshots/WDI5.jpg"),
             new Work_Item('World Cup 2014', "http://worldcup-app.herokuapp.com/", "./pageContent/images/work_screenshots/WorldCup2014.jpg"),
-            new Work_Item('Cupcake Game', "http://fathomless-fjord-8804.herokuapp.com/users/sign_in", "./pageContent/images/work_screenshots/CupCakeGame.jpg")
+            new Work_Item('Cupcake Game', "http://fathomless-fjord-8804.herokuapp.com/users/sign_in", "./pageContent/images/work_screenshots/CupcakeGame.jpg")
         ]  
         ),
 
@@ -244,7 +253,7 @@ var team_data = [
         new Images("./pageContent/images/team/BernardDoherty_big.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/BernardDoherty",
-                 "http://twitter.com/thebern" 
+                 "http://twitter.com/thebern"
                  )     
         ),
 
@@ -255,8 +264,11 @@ var team_data = [
         new Images(),
         new URLS("http://wdi5.com",
                  "http://github.com/rkuhel",
-                 "http://twitter.com/RyanKuhel" 
-                 )     
+                 "http://twitter.com/RyanKuhel"
+                 ),
+        [
+            new Work_Item('Lost Tribes', "http://brewtribe.herokuapp.com/", "./pageContent/images/work_screenshots/LostTribes.jpg")
+        ] 
         ),
 
     new Team_Member(

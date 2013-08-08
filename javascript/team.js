@@ -89,19 +89,19 @@ var team_data = [
         ] 
         ),
 
-    new Team_Member(
-        "Jamie Yu-Ramos",
-        "pccjamie@gmail.com",
-        "Needs a vacation.",
-        new Images(),
-        new URLS("http://wdi5.com",
-                 "http://github.com/pccjamie",
-                 "http://twitter.com/podandcob"
-                 ),
-        [
-            new Work_Item('Stoopendous', "http://stoopendous.herokuapp.com/", "./pageContent/images/work_screenshots/Stoopendous.jpg")
-        ]
-        ),
+    // new Team_Member(
+    //     "Jamie Yu-Ramos",
+    //     "pccjamie@gmail.com",
+    //     "Needs a vacation.",
+    //     new Images(),
+    //     new URLS("http://wdi5.com",
+    //              "http://github.com/pccjamie",
+    //              "http://twitter.com/podandcob"
+    //              ),
+    //     [
+    //         new Work_Item('Stoopendous', "http://stoopendous.herokuapp.com/", "./pageContent/images/work_screenshots/Stoopendous.jpg")
+    //     ]
+    //     ),
 
     new Team_Member(
         "Lee Hampton",

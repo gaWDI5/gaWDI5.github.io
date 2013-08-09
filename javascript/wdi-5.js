@@ -18,7 +18,7 @@ function focus_on_member(mem_inx){
         member_node_left.append(contact_section);
         member_node_left.append($('<div class="row"></div>'));
 
-        member_node_left.append($('<img id="focus-member-image" class="six columns"></img>').attr('src', current_member.images.image));
+        member_node_left.append($('<img id="focus-member-image" class="seven columns"></img>').attr('src', current_member.images.image));
         
         
         var member_node_right = $('<div id="focus-member-right" class="seven columns offset-by-two"></div>');

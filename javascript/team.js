@@ -136,7 +136,7 @@ var team_data = [
     new Team_Member(
         "Mike Reinhart",
         "mreinhart88@gmail.com",
-        "I am a member of WDI-5.",
+        "Andrew pushed me to give him some content right now, so here it is!",
         new Images("./pageContent/images/team/MichaelReinhart.png",
                    "./pageContent/images/team/MichaelReinhart_big.png",
                    "./pageContent/images/team/MichaelReinhart_profile.png"),
@@ -154,7 +154,8 @@ var team_data = [
         "1@6e0r9e.com",
         "I am a member of WDI-5.",
         new Images("./pageContent/images/team/GeorgeRodriguez.png", 
-                   "./pageContent/images/team/GeorgeRodriguez_big.png"),
+                   "./pageContent/images/team/GeorgeRodriguez_big.png",
+                   "./pageContent/images/team/GeorgeRodriguez_profile.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/6e0r9e",
                  "http://twitter.com/ale6e0r9exshotime" 
@@ -287,7 +288,8 @@ var team_data = [
         "wdi5ga2013@gmail.com",
         "I am a member of WDI-5.",
         new Images("./pageContent/images/team/RyanKuhel.png", 
-                   "./pageContent/images/team/RyanKuhel_big.png"),
+                   "./pageContent/images/team/RyanKuhel_big.png",
+                   "./pageContent/images/team/RyanKuhel_profile.png"),
         new URLS("http://wdi5.com",
                  "http://github.com/rkuhel",
                  "http://twitter.com/RyanKuhel"

@@ -42,6 +42,7 @@
       $("#Points").hide()
       $("#Zlu").hide()
       $(".Congrats").hide()
+      $('#Omar-Hidden').hide()
 
       $("#Dylan").hide()
       $("#Dylan").on("mouseover", move_dylan)
@@ -79,6 +80,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+  #Omar-Hidden{
+    height: 0px;
+    width: 0px;
+  }
   #Zlu{
     height: 100%;
     position: absolute;
@@ -98,7 +103,7 @@
   <h1 id ="Points"></h1>
 
     <img id="Omar" src="./pageContent/images/Omar1.png"/>
-    <img id="Omar-Hidden" width:"0px" heigth:"0px" src="./pageContent/images/Omar2.png"/>
+    <img id="Omar-Hidden" src="./pageContent/images/Omar2.png"/>
     <img id="Dylan" src="./pageContent/images/Dylan.png"/>
     <img id="Zlu" src="./pageContent/images/Zlu.jpg"/>
     <div class="Congrats">You've conquered the stack.</br>

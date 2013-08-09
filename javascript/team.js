@@ -168,7 +168,7 @@ var team_data = [
     new Team_Member(
         "Tanay Jalan",
         "tanayjalan@gmail.com",
-        "I am a member of WDI-5.",
+        "If you really really like smoothies, politeness, and humility, give me a call.",
         new Images("./pageContent/images/team/TanayJalan.png", 
                    "./pageContent/images/team/TanayJalan_big.png",
                    "./pageContent/images/team/TanayJalan_profile.png"),

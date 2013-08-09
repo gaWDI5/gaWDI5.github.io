@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+  <title>WDI-5 Game</title>
+  
+  <meta name="description" content="A WDI Game">
+  <meta name="author" content="WDI-5">
+
+  <script src="javascript/jquery-2.0.3.js"></script>
+  <script>
+
+  var current_score = 0;
+
+    function move_dylan(){
+      width = $('body').width()
+      $("#Dylan").animate({left: Math.random()*width+"px"}, 500)
+    }
+
+    function win_game(){
+      $("#Zlu").fadeIn(5000)
+      $(".Congrats").fadeIn(5000)
+      $("#Dylan").hide();
+      $("#Points").hide();
+      $('body').css('backgroundColor', 'black')
+    }
+
+    function points(){
+      current_score += Math.round(Math.random()*100);
+      $("#Points").text(current_score)
+
+      if (current_score>100){
+        win_game()
+      }
+    }
+
+
+    $(function(){
+
+      $("#Points").hide()
+      $("#Zlu").hide()
+      $(".Congrats").hide()
+
+      $("#Dylan").hide()
+      $("#Dylan").on("mouseover", move_dylan)
+      $("#Dylan").on("mouseleave", move_dylan)
+      $("#Dylan").on("click", points)
+
+
+      $("#Omar").attr('src', "./pagecontent/images/Omar1.png")
+      
+      setTimeout(function(){
+        $("#Omar").attr('src', "./pagecontent/images/Omar2.png")}, 3000)
+
+      setTimeout(function(){
+        $("#Omar").fadeOut(1000);
+        $("#Dylan").fadeIn(1000);
+        $("#Points").fadeIn(1000);
+      }, 5000)
+
+
+    })
+
+  </script>
+
+<style>
+  #Dylan{
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #Omar{
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #Zlu{
+    height: 100%;
+    position: absolute;
+    left: 0;
+  }
+  .Congrats{
+    font-size: 3em;
+    position: absolute;
+    right: 2em;
+    color: white;
+  }
+</style>
+
+</head>
+<body>
+  </br>
+  <h1 id ="Points"></h1>
+
+    <img id="Omar" src="./pagecontent/images/Omar1.png"/>
+    <img id="Dylan" src="./pagecontent/images/Dylan.png"/>
+    <img id="Zlu" src="./pagecontent/images/Zlu.jpg"/>
+    <div class="Congrats">You've conquered the stack.</br>
+    <div class="Congrats">All. Of. It. </div>
+
+</body>
+</html>
+

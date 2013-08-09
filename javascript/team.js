@@ -85,7 +85,7 @@ var team_data = [
                  ),
         [
             new Work_Item('Stoopendous', "http://stoopendous.herokuapp.com/", "./pageContent/images/work_screenshots/Stoopendous.jpg"),
-            new Work_Item('Fish Friendzy', "http://fish-friendzy.herokuapp.com", "./pageContent/images/work_screenshots/FishFriendz.jpg")
+            new Work_Item('Ace Office', "http://ace-office.herokuapp.com/", "./pageContent/images/work_screenshots/AceOffice.jpg")
         ] 
         ),
 
@@ -115,7 +115,7 @@ var team_data = [
                  "http://twitter.com/leejhampton"
                  ),
         [
-            new Work_Item('Ace Office', "http://lhtj.herokuapp.com/", "./pageContent/images/work_screenshots/AceOffice.jpg")
+            new Work_Item('Ace Office', "http://ace-office.herokuapp.com/", "./pageContent/images/work_screenshots/AceOffice.jpg")
         ]      
         ),
 
@@ -178,7 +178,7 @@ var team_data = [
                  ),
         [
             new Work_Item('Stoopendous', "http://stoopendous.herokuapp.com/", "./pageContent/images/work_screenshots/Stoopendous.jpg"),
-            new Work_Item('Ace Office', "http://lhtj.herokuapp.com/", "./pageContent/images/work_screenshots/AceOffice.jpg"),
+            new Work_Item('Ace Office', "http://ace-office.herokuapp.com/", "./pageContent/images/work_screenshots/AceOffice.jpg")
         ]
         ),
 

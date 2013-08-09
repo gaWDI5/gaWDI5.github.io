@@ -57,7 +57,7 @@ var team_data = [
     new Team_Member(
         "Alex Davidow",
         "alex.davidow@gmail.com",
-        "I am a member of WDI-5.",
+        "Full stack, full on, full plate.",
         new Images("./pageContent/images/team/AlexDavidow.png", 
                    "./pageContent/images/team/AlexDavidow_big.png",
                    "./pageContent/images/team/AlexDavidow_profile.png"),

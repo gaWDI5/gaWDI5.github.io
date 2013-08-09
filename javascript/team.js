@@ -75,7 +75,7 @@ var team_data = [
     new Team_Member(
         "David Aaron",
         "davidmatthewaaron@gmail.com",
-        "I am a member of WDI-5.",
+        "What can I say? I love taglines.",
         new Images("./pageContent/images/team/DavidAaron.png", 
                    "./pageContent/images/team/DavidAaron_big.png",
                    "./pageContent/images/team/DavidAaron_profile.png"),
@@ -220,7 +220,7 @@ var team_data = [
     new Team_Member(
         "Andrew Madden",
         "amadden80@gmail.com",
-        "My business card say I'm an Audio Research, Programmer and Nice Guy.  I need a new business card...",
+        "My business card say I'm an Audio Researcher, Programmer and Nice Guy.  I need a new business card...",
         new Images("./pageContent/images/team/AndrewMadden.png", 
                    "./pageContent/images/team/AndrewMadden_big.png",
                    "./pageContent/images/team/AndrewMadden_profile.png"),
@@ -286,7 +286,7 @@ var team_data = [
     new Team_Member(
         "Ryan Kuhel",
         "wdi5ga2013@gmail.com",
-        "I am a member of WDI-5.",
+        "Insert Tagline",
         new Images("./pageContent/images/team/RyanKuhel.png", 
                    "./pageContent/images/team/RyanKuhel_big.png",
                    "./pageContent/images/team/RyanKuhel_profile.png"),

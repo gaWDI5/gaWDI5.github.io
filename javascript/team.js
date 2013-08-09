@@ -201,7 +201,7 @@ var team_data = [
     new Team_Member(
         "Isabel Cortes",
         "belcortes@gmail.com",
-        "I am a member of WDI-5.",
+        "y = m(x) + bel",
         new Images("./pageContent/images/team/BelCortes.png", 
                    "./pageContent/images/team/BelCortes_big.png",
                    "./pageContent/images/team/BelCortes_profile.png"),
@@ -306,10 +306,14 @@ var team_data = [
         new Images("./pageContent/images/team/FrankMendez.png", 
                    "./pageContent/images/team/FrankMendez_big.png",
                    "./pageContent/images/team/FrankMendez_profile.png"),
-        new URLS("http://wdi5.com",
+        new URLS("http://fjmendez.github.com",
                  "http://github.com/FJMendez",
                  "http://twitter.com/Abrasive_Fellow" 
-                 ) 
+                 ),
+        [
+            new Work_Item('Once-Upon-a-Cupcake', "http://once-upon-a-cupcake.herokuapp.com/", "./pageContent/images/work_screenshots/OnceUponACupcake.jpg"),
+            new Work_Item('Pryify', "http://pryify.herokuapp.com")
+        ] 
         )
 ];   
 

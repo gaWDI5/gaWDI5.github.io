@@ -57,6 +57,14 @@ function focus_on_member(mem_inx){
     }
 
     $('#hiden-focus-team-member').append($('<img width="0px" height="0px"></img>').attr('src', current_member.images.big_image));
+
+    if ($(window).width() < 768){
+        $('#focus-member-image').css('position', 'relative')
+    }
+    else
+        {
+        $('#focus-member-image').css('position', 'absolute')
+    }
 }
 
 function toggle_focus_image_size(){

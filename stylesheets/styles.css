@@ -24,9 +24,7 @@ body{
 }
 
 
-
-
-.shadowable{
+/*.shadowable{
     -webkit-transition: text-shadow 1s;
     -moz-transition: text-shadow 1s;
     -o-transition: text-shadow 1s;
@@ -35,7 +33,7 @@ body{
 .shadowable:hover{
     text-shadow:0.5px 1px 1.5px gray;
 } 
-
+*/
 
 .growable{
     -webkit-transition: all 0.5s;
@@ -51,6 +49,23 @@ body{
     -webkit-transform: scale(1.01); 
     transform: scale(1.01); 
 } 
+
+
+
+
+
+
+
+/*Dark*/
+.dark-member-name{
+    color: white;
+}
+.dark-member-profile{
+    display: inline-block;
+}
+
+
+
 
 
 

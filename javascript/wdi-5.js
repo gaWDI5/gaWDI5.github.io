@@ -1,4 +1,5 @@
 var current_member_on_focus=0;
+var view_type = 'white';
 
 
 function focus_on_member(mem_inx){
@@ -155,7 +156,5 @@ $(function(){
     $('#team-members-bin').on('mouseenter', load_focus_on_member_pictures);
     setTimeout(load_focus_on_member_pictures, 1000);
 
-
-    
 
 });

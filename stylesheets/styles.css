@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+h1, h2, h3, h4 {
+    font-family: "helvetica neue"
+}
+
 
 
 body{
@@ -16,10 +20,10 @@ body{
 }
 
 .skills {
-    background-color: lightgray;
+    /*background-color: lightgray;*/
     color: black;
-    border-radius: 2px;
-    box-shadow: 5px 5px 5px #888888;
+    /*border-radius: 2px;*/
+    /*box-shadow: 5px 5px 5px #888888;*/
     margin-bottom: 10px;
 }
 
@@ -69,8 +73,7 @@ body{
 
 
 
-#focus-team-member{
-}
+
 
 
 
@@ -126,16 +129,18 @@ ul{
 
 #focus-team-member{
     min-height: 28.5em; 
-    border-top: 3px solid gray;
+    border-top: 1px solid black;
     position: relative;
+    padding-top: 10px;
 }
 
 #team-members-bin{
-    border-top: 3px solid gray;
+    border-top: 1px solid black;
+    padding-top: 10px;
 }
 
 #focus-member-image{
-    border-bottom: 3px solid gray;  
+    border-bottom: 1px solid black;  
     position: absolute; bottom: 0px;
 }
 

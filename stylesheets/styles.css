@@ -146,6 +146,7 @@ ul{
 
 .team-member-image-small{
     width: 7em;
+    cursor: pointer;
 }
 
 a{

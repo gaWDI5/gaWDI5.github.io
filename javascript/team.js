@@ -205,7 +205,7 @@ var team_data = [
         new Images("./pageContent/images/team/BelCortes.png", 
                    "./pageContent/images/team/BelCortes_big.png",
                    "./pageContent/images/team/BelCortes_profile.png"),
-        new URLS("http://belcortes.github.io/",
+        new URLS("http://www.belcortes.com/",
                  "http://github.com/belcortes",
                  "http://twitter.com/bebelcortes" 
                  ),

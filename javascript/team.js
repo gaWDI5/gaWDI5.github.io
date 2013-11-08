@@ -1,5 +1,4 @@
 
-
 function URLS(personal_url, github_url, twitter_url){
     var urls_literal = {
         personal_url:personal_url || "http://WDI5.com",
@@ -229,7 +228,7 @@ var team_data = [
                  "http://twitter.com/ajm_dev"
                  ),
         [
-            new Work_Item('Sonifzer API', "http://Sonifizer.com", "./pageContent/images/work_screenshots/Sonifizer.jpg"),
+            new Work_Item('Sonifzer API', "https://sonifizer.herokuapp.com", "./pageContent/images/work_screenshots/Sonifizer.jpg"),
             new Work_Item('WDI5.com', "http://WDI5.com", "./pageContent/images/work_screenshots/WDI5.jpg"),
             new Work_Item('Blings', "http://Blings.herokuapp.com", "./pageContent/images/work_screenshots/Blings.jpg")
         ] 
